@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-content{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+/* nav-bar */
+
+header{
+    background-color: #1A0B2E;
+    padding: 1rem 0;
+    border-bottom: 5px solid rgba(65, 37, 103, 1);
+}
+
+header nav .nav-section{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    align-items: center;
+
+}
+
+header nav .nav-section h2{
+
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 2rem;
+    color: white;
+
+}
+
+header nav .nav-section h2 .logo-grad{
+
+    background: linear-gradient(
+    135deg,
+    rgba(247, 233, 63, 1),
+    rgba(251, 9, 180, 1),
+    rgba(145, 0, 248, 1)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+header nav .nav-section ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+header nav .nav-section ul li{
+    
+    list-style: none;
+}
+
+header nav .nav-section ul li a{
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-style: Medium;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 120%;
+    color: #ffffff;
+}
+
+header nav .nav-section .nav-btn{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+header nav .nav-section .btn{
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+    width: 135px;
+    height: 44px;
+    border:none;
+    border-radius: 1000px;
+    gap: 0.4rem;
+    border: 1px solid blanchedalmond;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+
+
