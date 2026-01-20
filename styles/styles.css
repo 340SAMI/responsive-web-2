@@ -207,7 +207,157 @@ font-weight: 600;
 
 
 
+/* about */
+
+#about{
+    background-color: rgba(26, 11, 46, 1);
+}
+
+#about .about-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
 
 
+#about .about-section .about-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.1rem;
+    padding: 3.2rem 0 5rem;
+}
+
+
+#about .about-section .about-title h2{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #FFFFFF;
+}
+
+#about .about-section .about-title p{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
+#about .about-section .about-title #space{
+
+    margin-top: 2rem;
+}
+
+#about .about-section .about-rating{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 5rem 0 7.5rem;
+
+    border-top: 0.5px solid rgba(255, 255, 255, 0.315);
+}
+
+
+#about .about-section .about-rating .about-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.1rem;
+}
+
+
+#about .about-section .about-rating .about-box h3{
+     font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    color: #00FF88;
+}
+
+
+#about .about-section .about-rating .about-box #rating-sub{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
+/* cards */
+
+#choose{
+    background-color: rgba(35, 14, 61, 1);
+}
+
+#choose .choose-section{
+
+    padding: 7.5rem 0;
+}
+
+#choose .choose-section .choose-title{
+
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+#choose .choose-section .choose-title h2{
+
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #FFFFFF;
+
+}
+
+#choose .choose-section .card-container{
+
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: repeat(3 , 1fr);
+    gap: 1.875rem;
+
+}
+
+
+#choose .choose-section .card-container .card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 2.5rem;
+    background-color:rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    
+}
+
+.grid-tall{
+    grid-row: span 2;
+}
+
+.grid-long{
+    grid-column: span 2;
+}
+
+
+#choose .choose-section .card-container .card h4{
+
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+
+#choose .choose-section .card-container .card p{
+
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #ffffff60;
+}
 
 
