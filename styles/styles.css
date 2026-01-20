@@ -10,6 +10,8 @@
     padding: 0 2rem;
 }
 
+
+
 /* nav-bar */
 
 header{
@@ -75,7 +77,7 @@ header nav .nav-section .nav-btn{
 }
 
 
-header nav .nav-section .btn{
+ .btn{
     text-decoration: none;
     color: #ffffff;
     display: flex;
@@ -87,11 +89,125 @@ header nav .nav-section .btn{
     border:none;
     border-radius: 1000px;
     gap: 0.4rem;
-    border: 1px solid blanchedalmond;
     font-family: "Inter", sans-serif;
     font-weight: 600;
     font-size: 1rem;
 }
+
+/* banner */
+
+#banner{
+    background: url(../assets/hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 6.93rem 0;
+    
+}
+
+#banner .banner-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner .banner-content .banner-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 22vw;
+    max-width: 352px;
+    border: 2px solid greenyellow;
+    
+}
+
+#banner .banner-content .banner-img img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+#banner .banner-content .banner-img .banner-inner-img{
+    position: absolute;
+    border: 2px solid powderblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#banner .banner-content .banner-img .banner-inner-img img{
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 2px solid greenyellow;
+}
+
+#banner .banner-content .banner-heading{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#banner .banner-content .banner-heading h2{
+    color: rgba(255, 255, 255, 1);
+    font-family: "Inter", sans-serif;
+    font-size: 3.75vw;
+    font-weight: 800;
+    text-transform: capitalize;
+    margin-top: 2.5rem;
+}
+
+#banner .banner-content .banner-heading p{
+
+    color: rgba(255, 255, 255, 1);
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 19px;
+    margin: 1.5rem 0;
+
+}
+
+#banner .banner-content .banner-heading .banner-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+#banner .banner-content .banner-heading .banner-btn .btn{
+    width: 201px;
+    height: 44px;
+}
+
+#banner .banner-content .banner-heading .banner-btn .btn2{
+    
+width: 147px;
+height: 44px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 0.5rem;
+border: 1px solid rgba(0, 255, 136, 1);
+background-color: transparent;
+color:  rgba(0, 255, 136, 1);
+border-radius: 1000px;
+font-family:  "Inter", sans-serif;
+font-size: 1rem;
+font-weight: 600;
+
+
+}
+
+
+
+
 
 
 
